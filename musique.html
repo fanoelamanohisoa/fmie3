@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <!-- ======== Swiper Js ======= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css" />
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>FMIE</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="wrapper container">
+            <div class="logo">
+                <a href="/">
+                    <img src="./images/logo.png" alt=""></a>
+            </div>
+
+            <ul class="nav-list">
+                <div class="top">
+                    <label for="" class="btn close-btn">
+                        <i class="fas fa-times"></i>
+                    </label>
+                </div>
+
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="apropos.html">A Propos</a></li>
+                <li><a href="" class="desktop-item">Boutique <span><i class="fas fa-chevron-down"></i></span></a>
+                    <input type="checkbox" id="showMega">
+                    <label for="showMega" class="mobile-item">Shop <span><i
+                                class="fas fa-chevron-down"></i></span></label>
+                    <div class="mega-box">
+                        <div class="content">
+                            <div class="row">
+                                <img src="./images/nav.png" alt="">
+                            </div>
+                            <div class="row">
+                                <header>Art Artisanale</header>
+                                <ul class="mega-links">
+
+                                    <li><a href="artextile.html">Arts textile</a></li>
+                                    <li><a href="sculpture.html">Sculpture</a></li>
+                                    <li><a href="peinture.html">Peinture</a></li>
+                                    <li><a href="artisanat.html">Artisanat</a></li>
+                                    <li><a href="musique.html">Musique et danse</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <header>Pierre Industriel</header>
+                                <ul class="mega-links">
+                                    <li><a href="">Pierre Industriel 1</a></li>
+                                    <li><a href="">Pierre Industriel 2</a></li>
+                                    <li><a href="">Pierre Industriel 3</a></li>
+                                    <li><a href="">Pierre Industriel 4</a></li>
+                                </ul>
+                            </div>
+                            <!-- <div class="row">
+              <header>Nouveaute</header>
+              <ul class="mega-links">
+                <li><a href="">Nouveaute 1</a></li>
+                <li><a href="">Nouveaute 2</a></li>
+                <li><a href="">Nouveaute 3</a></li>
+                <li><a href="">Nouveaute 4</a></li>
+              </ul>
+            </div> -->
+                        </div>
+                    </div>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="icons"><a href="cart.html">
+                        <span>
+                            <img src="./images/shoppingBag.svg" alt="">
+                            <small class="count d-flex">0</small>
+                        </span>
+                    </a>
+                    <span>
+                        <img src="./images/search.svg" alt="">
+                    </span>
+                </li>
+            </ul>
+            <label for="" class="btn open-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero">
+        <div class="row">
+            <div class="swiper-container slider-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./images/hero-1.png" alt="">
+                        <div class="content">
+                            <h1>Panier Artisanale
+                                <br>
+                                Starting from
+                                <span>7$</span>
+                            </h1>
+                            <p>Don't compare your self to anyone on this planet, if you do so, you are insulting your
+                                self.</p>
+                            <a href="">Achetez</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/hero-2.png" alt="">
+                        <div class="content">
+                            <h1>Panier Artisanale
+                                <br>
+
+                                <span>20% Off</span>
+
+                            </h1>
+                            <p>"Don't compare your self to anyone on this planet, if you do so, you are insulting your
+                                self.</p>
+                            <a href="">Achetez</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./images/hero-3.png" alt="">
+                        <div class="content">
+                            <h1>Panier Artisanale
+                                <br>
+                                Starting from
+                                <span>7$</span>
+                            </h1>
+                            <p>"Don't compare your self to anyone on this planet, if you do so, you are insulting your
+                                self.
+                            </p>
+                            <a href="">Achetez</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        <!-- Carousel Navigation -->
+        <div class="arrows d-flex">
+            <div class="swiper-prev d-flex">
+                <i class="bx bx-chevrons-left swiper-icon"></i>
+            </div>
+            <div class="swiper-next d-flex">
+                <i class="bx bx-chevrons-right swiper-icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products -->
+    <section class="section products">
+        <div class="title">
+            <h2>All Products</h2>
+            <span>Trust on your self and every single hing will be all right.</span>
+        </div>
+
+        <div class="product-layout">
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-3.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-4.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-5.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-6.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-7.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-8.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-9.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-10.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-11.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-12.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-13.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-14.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-3.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-4.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-5.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-6.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-7.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-8.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-9.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-10.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-11.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-12.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-13.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="img-container">
+                    <img src="./images/product-14.png" alt="">
+                    <div class="addCart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <ul class="side-icons">
+                        <span><i class="fas fa-search"></i></span>
+                        <span><i class="far fa-heart"></i></span>
+                        <span><i class="fas fa-sliders-h"></i></span>
+                    </ul>
+                </div>
+                <div class="bottom">
+                    <a href="productsDetails.html">Art Malagasy</a>
+                    <div class="price">
+                        <span>$150</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="section featured">
+        <div class="title">
+            <h2>New products</h2>
+            <span>Trust on your self and every single hing will be alright.</span>
+        </div>
+
+        <div class="row container">
+            <div class="swiper-container slider-2">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/product-1.jpg" alt="">
+                                <div class="addCart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="side-icons">
+                                    <span><i class="fas fa-search"></i></span>
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-sliders-h"></i></span>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <a href="productDetails.html">Art Malagasy</a>
+                                <div class="price">
+                                    <span>$150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/product-2.png" alt="">
+                                <div class="addCart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="side-icons">
+                                    <span><i class="fas fa-search"></i></span>
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-sliders-h"></i></span>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <a href="productDetails.html">Art Malagasy</a>
+                                <div class="price">
+                                    <span>$150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/product-3.png" alt="">
+                                <div class="addCart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="side-icons">
+                                    <span><i class="fas fa-search"></i></span>
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-sliders-h"></i></span>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <a href="productDetails.html">Art Malagasy</a>
+                                <div class="price">
+                                    <span>$150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/product-4.png" alt="">
+                                <div class="addCart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="side-icons">
+                                    <span><i class="fas fa-search"></i></span>
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-sliders-h"></i></span>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <a href="productDetails.html">Art Malagasy</a>
+                                <div class="price">
+                                    <span>$150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/product-5.png" alt="">
+                                <div class="addCart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="side-icons">
+                                    <span><i class="fas fa-search"></i></span>
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-sliders-h"></i></span>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <a href="productDetails.html">Art Malagasy</a>
+                                <div class="price">
+                                    <span>$150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <div class="img-container">
+                                <img src="./images/product-6.png" alt="">
+                                <div class="addCart">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <ul class="side-icons">
+                                    <span><i class="fas fa-search"></i></span>
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="fas fa-sliders-h"></i></span>
+                                </ul>
+                            </div>
+                            <div class="bottom">
+                                <a href="productDetails.html">Art Malagasy</a>
+                                <div class="price">
+                                    <span>$150</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Navigation -->
+        <div class="arrows d-flex">
+            <div class="custom-prev d-flex">
+                <i class="bx bx-chevrons-left swiper-icon"></i>
+            </div>
+            <div class="custom-next d-flex">
+                <i class="bx bx-chevrons-right swiper-icon"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="section footer" id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-center">
+                    <h3>Extra</h3>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                </div>
+                <div class="footer-center">
+                    <h3>Information</h3>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                </div>
+                <div class="footer-center">
+                    <h3>My Account</h3>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                    <a href="">Brands</a>
+                </div>
+                <div class="footer-center">
+                    <h3>Contact us</h3>
+                    <div>
+                        <span><i class="fas fa-map-marker-alt"></i></span>
+                        Toulouse, France
+                    </div>
+                    <div>
+                        <span><i class="far fa-envelope"></i></span>
+                        fmie@gmail.com
+                    </div>
+                    <div>
+                        <span><i class="fas fa-phone"></i></span>
+                        +33604531244
+                    </div>
+                    <div class="payment-methods">
+                        <img src="./images/payment.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <!-- Custom Scripts -->
+    <script src="./js/slider.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
